@@ -1,7 +1,7 @@
 import React, {useContext, useState} from 'react'
 import UserContext from './UserContext'
 
-const UserContextProvicer = ({children}) => {
+const UserContextProvider = ({children}) => {
     const [user, setUser] = useState(null);
     return (
         <>
@@ -12,4 +12,4 @@ const UserContextProvicer = ({children}) => {
     )
 }
 
-export default UserContextProvicer
+export default UserContextProvider

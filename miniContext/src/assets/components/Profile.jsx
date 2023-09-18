@@ -5,7 +5,7 @@ const Profile = () => {
     if (!user) {
         return <h1>Please Enter Username</h1>
     }
-    return <h3>Sorry!,User "{user.username}" already has password "{user.password}"</h3>
+    return <h3>User Name : "{user.username}" | Password "{user.password}"</h3>
 }
 
 export default Profile
